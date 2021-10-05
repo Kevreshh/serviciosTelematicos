@@ -1,0 +1,14 @@
+$ORIGIN 50.168.192.in-addr.arpa.
+$TTL 3H
+@	IN SOA	servidor3.troyanos.com.	root@troyanos.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN	NS	servidor3.troyanos.com.
+@	IN	NS	servidor2.troyanos.com.
+@	IN	NS	firewall.troyanos.com.
+3	IN	PTR	servidor3.troyanos.com.
+2	IN	PTR	servidor2.troyanos.com.
+100	IN	PTR	firewall.troyanos.com.
